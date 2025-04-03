@@ -16,7 +16,7 @@ public class HomeController {
     private static final Logger logger = LoggerFactory.getLogger("kr.ac.hansung.controller.HomeController");
 
 
-//    @RequestMapping(value = "/", method = RequestMethod.GET)
+//    @RequestMapping(value = "/", method = RequestMethod.GET)ㅈ
     @GetMapping("/")
     public String home(HttpServletRequest request) {
 
